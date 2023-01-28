@@ -37,7 +37,7 @@ function Welcome(){
 
     return (
         <div>
-            <button onClick={firstapi}>Click here to see welcome message</button>
+            <button name="subject" onClick={firstapi}>Welcome!</button>
             <h1 >{welcomMessage}</h1>
             <hr></hr>
             <button onClick={peopleapi}>Click here to see People list</button>
